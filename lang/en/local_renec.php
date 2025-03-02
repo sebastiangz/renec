@@ -22,108 +22,108 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Importador de competencias RENEC/CONOCER';
-$string['plugininfo'] = 'Este plugin permite importar competencias del Registro Nacional de Estándares de Competencia (RENEC) a Moodle. Sigue el proceso paso a paso: primero crea un marco de competencias, luego importa los niveles y finalmente las competencias individuales.';
+$string['pluginname'] = 'RENEC/CONOCER Competencies Importer';
+$string['plugininfo'] = 'This plugin allows you to import competencies from the National Registry of Competency Standards (RENEC) into Moodle. Follow the step-by-step process: first create a competency framework, then import the levels, and finally import the individual competencies.';
 
-// Permisos
-$string['renec:manage'] = 'Administrar competencias RENEC';
+// Permissions
+$string['renec:manage'] = 'Manage RENEC competencies';
 
-// Menú principal
-$string['menu_options'] = 'Opciones disponibles';
-$string['create_framework'] = 'Paso 1: Crear marco de competencias';
-$string['create_framework_desc'] = 'Crea un nuevo marco de competencias RENEC para organizar tus estándares.';
-$string['import_levels'] = 'Paso 2: Importar niveles';
-$string['import_levels_desc'] = 'Importa los niveles de competencia (del 1 al 5) a un marco existente.';
-$string['import_competencies'] = 'Paso 3: Importar competencias';
-$string['import_competencies_desc'] = 'Importa las competencias individuales organizadas por niveles.';
-$string['view_frameworks'] = 'Ver marcos de competencias';
-$string['view_frameworks_desc'] = 'Visualiza los marcos de competencias existentes y su estructura.';
+// Main menu
+$string['menu_options'] = 'Available options';
+$string['create_framework'] = 'Step 1: Create competency framework';
+$string['create_framework_desc'] = 'Create a new RENEC competency framework to organize your standards.';
+$string['import_levels'] = 'Step 2: Import levels';
+$string['import_levels_desc'] = 'Import competency levels (1 to 5) into an existing framework.';
+$string['import_competencies'] = 'Step 3: Import competencies';
+$string['import_competencies_desc'] = 'Import individual competencies organized by levels.';
+$string['view_frameworks'] = 'View competency frameworks';
+$string['view_frameworks_desc'] = 'View existing competency frameworks and their structure.';
 
-// Flujo recomendado
-$string['recommended_workflow'] = 'Flujo de trabajo recomendado';
-$string['recommended_workflow_desc'] = 'Para una correcta importación, se recomienda seguir estos pasos en orden:';
-$string['workflow_step1'] = 'Crear un nuevo marco de competencias RENEC';
-$string['workflow_step2'] = 'Importar los niveles desde archivo o crear los niveles predeterminados';
-$string['workflow_step3'] = 'Importar las competencias individuales desde el archivo CSV de RENEC';
+// Recommended workflow
+$string['recommended_workflow'] = 'Recommended workflow';
+$string['recommended_workflow_desc'] = 'For a correct import, it is recommended to follow these steps in order:';
+$string['workflow_step1'] = 'Create a new RENEC competency framework';
+$string['workflow_step2'] = 'Import levels from a file or create default levels';
+$string['workflow_step3'] = 'Import individual competencies from the RENEC CSV file';
 
-// Formato de archivos CSV
-$string['csv_format'] = 'Formato de archivos CSV';
-$string['csv_format_desc'] = 'Los archivos CSV deben tener el siguiente formato para ser importados correctamente:';
-$string['csv_purpose'] = 'Propósito';
-$string['csv_columns'] = 'Columnas requeridas';
-$string['csv_example'] = 'Ejemplo';
-$string['csv_framework'] = 'Marco de competencias';
-$string['csv_levels'] = 'Niveles';
-$string['csv_competencies'] = 'Competencias';
+// CSV format
+$string['csv_format'] = 'CSV file format';
+$string['csv_format_desc'] = 'CSV files must have the following format to be imported correctly:';
+$string['csv_purpose'] = 'Purpose';
+$string['csv_columns'] = 'Required columns';
+$string['csv_example'] = 'Example';
+$string['csv_framework'] = 'Competency framework';
+$string['csv_levels'] = 'Levels';
+$string['csv_competencies'] = 'Competencies';
 
-// Formulario de creación de marco
-$string['create_framework_info'] = 'Crea un nuevo marco de competencias para organizar los estándares RENEC. Este es el primer paso del proceso de importación.';
-$string['create_framework_instructions'] = 'Complete los siguientes campos para crear un nuevo marco de competencias RENEC. Asegúrese de seleccionar una escala adecuada.';
-$string['framework_name'] = 'Nombre del marco';
-$string['framework_name_help'] = 'Nombre corto que identifica el marco de competencias. Recomendamos usar "RENEC" o similar.';
-$string['framework_description'] = 'Descripción del marco';
-$string['framework_description_help'] = 'Descripción detallada del propósito del marco de competencias.';
-$string['framework_idnumber'] = 'ID del marco';
-$string['framework_idnumber_help'] = 'Identificador único para el marco. Recomendamos usar "RENEC-PRINCIPAL" o similar.';
-$string['selectscale'] = 'Escala de competencias';
-$string['selectscale_help'] = 'Seleccione la escala que se utilizará para evaluar las competencias. Se recomienda usar una escala de 5 niveles.';
-$string['create_framework_submit'] = 'Crear marco';
-$string['framework_created_success'] = 'Marco de competencias creado exitosamente con ID: {$a}';
-$string['continue_to_import_levels'] = 'Continuar con la importación de niveles';
-$string['back_to_menu'] = 'Volver al menú principal';
+// Framework creation form
+$string['create_framework_info'] = 'Create a new competency framework to organize RENEC standards. This is the first step of the import process.';
+$string['create_framework_instructions'] = 'Complete the following fields to create a new RENEC competency framework. Make sure to select an appropriate scale.';
+$string['framework_name'] = 'Framework name';
+$string['framework_name_help'] = 'Short name that identifies the competency framework. We recommend using "RENEC" or similar.';
+$string['framework_description'] = 'Framework description';
+$string['framework_description_help'] = 'Detailed description of the purpose of the competency framework.';
+$string['framework_idnumber'] = 'Framework ID';
+$string['framework_idnumber_help'] = 'Unique identifier for the framework. We recommend using "RENEC-PRINCIPAL" or similar.';
+$string['selectscale'] = 'Competency scale';
+$string['selectscale_help'] = 'Select the scale that will be used to evaluate competencies. A 5-level scale is recommended.';
+$string['create_framework_submit'] = 'Create framework';
+$string['framework_created_success'] = 'Competency framework successfully created with ID: {$a}';
+$string['continue_to_import_levels'] = 'Continue to level import';
+$string['back_to_menu'] = 'Back to main menu';
 
-// Formulario de importación de niveles
-$string['import_levels_info'] = 'Importa los niveles de competencia a un marco existente. Este es el segundo paso del proceso de importación.';
-$string['import_levels_instructions'] = 'Seleccione un marco de competencias existente y cargue un archivo CSV con los niveles de competencia o cree los niveles predeterminados.';
-$string['select_framework'] = 'Marco de competencias';
-$string['select_framework_help'] = 'Seleccione el marco de competencias donde desea importar los niveles o competencias.';
-$string['create_default_levels'] = 'Crear niveles predeterminados';
-$string['create_default_levels_help'] = 'Si marca esta opción, se crearán automáticamente los niveles del 1 al 5 y el nivel "Sin asignar", sin necesidad de cargar un archivo CSV.';
-$string['levelsfile'] = 'Archivo CSV de niveles';
-$string['levelsfile_help'] = 'Seleccione el archivo CSV con los niveles de competencia. Este archivo debe incluir columnas como "Número ID paterno", "Número ID", "Nombre_corto", "Descripción" y "Es estructura".';
-$string['import_levels_submit'] = 'Importar niveles';
-$string['levels_imported_success'] = '{$a} niveles importados exitosamente';
-$string['continue_to_import_competencies'] = 'Continuar con la importación de competencias';
+// Level import form
+$string['import_levels_info'] = 'Import competency levels into an existing framework. This is the second step of the import process.';
+$string['import_levels_instructions'] = 'Select an existing competency framework and upload a CSV file with competency levels or create default levels.';
+$string['select_framework'] = 'Competency framework';
+$string['select_framework_help'] = 'Select the competency framework where you want to import levels or competencies.';
+$string['create_default_levels'] = 'Create default levels';
+$string['create_default_levels_help'] = 'If checked, levels 1 to 5 and the "Unassigned" level will be created automatically, without needing to upload a CSV file.';
+$string['levelsfile'] = 'Levels CSV file';
+$string['levelsfile_help'] = 'Select the CSV file with competency levels. This file must include columns such as "Número ID paterno", "Número ID", "Nombre_corto", "Descripción" and "Es estructura".';
+$string['import_levels_submit'] = 'Import levels';
+$string['levels_imported_success'] = '{$a} levels successfully imported';
+$string['continue_to_import_competencies'] = 'Continue to competency import';
 
-// Formulario de importación de competencias
-$string['import_competencies_info'] = 'Importa las competencias individuales a un marco existente. Este es el tercer y último paso del proceso de importación.';
-$string['import_competencies_instructions'] = 'Seleccione un marco de competencias existente y cargue un archivo CSV con las competencias RENEC.';
-$string['competenciesfile'] = 'Archivo CSV de competencias';
-$string['competenciesfile_help'] = 'Seleccione el archivo CSV con las competencias RENEC. Este archivo debe incluir columnas como "Número ID paterno", "Número ID", "Nombre_corto", "Descripción" y "Es estructura".';
-$string['create_missing_levels'] = 'Crear niveles faltantes';
-$string['create_missing_levels_help'] = 'Si marca esta opción, se crearán automáticamente los niveles que no existan en el marco pero que sean requeridos por las competencias en el archivo CSV.';
-$string['import_competencies_submit'] = 'Importar competencias';
+// Competency import form
+$string['import_competencies_info'] = 'Import individual competencies into an existing framework. This is the third and final step of the import process.';
+$string['import_competencies_instructions'] = 'Select an existing competency framework and upload a CSV file with RENEC competencies.';
+$string['competenciesfile'] = 'Competencies CSV file';
+$string['competenciesfile_help'] = 'Select the CSV file with RENEC competencies. This file must include columns such as "Número ID paterno", "Número ID", "Nombre_corto", "Descripción" and "Es estructura".';
+$string['create_missing_levels'] = 'Create missing levels';
+$string['create_missing_levels_help'] = 'If checked, levels that do not exist in the framework but are required by competencies in the CSV file will be created automatically.';
+$string['import_competencies_submit'] = 'Import competencies';
 
-// Opciones avanzadas y campos comunes
-$string['advancedoptions'] = 'Opciones avanzadas';
-$string['overwrite'] = 'Sobrescribir competencias existentes';
-$string['overwrite_help'] = 'Si se marca, las competencias existentes con el mismo ID serán actualizadas. Si no se marca, se omitirán.';
-$string['encoding'] = 'Codificación del archivo';
-$string['encoding_help'] = 'Seleccione la codificación del archivo CSV. Si ve caracteres extraños, pruebe con diferentes codificaciones.';
-$string['delimiter'] = 'Delimitador CSV';
-$string['delimiter_help'] = 'Seleccione el carácter que separa las columnas en el archivo CSV.';
-$string['comma'] = 'Coma (,)';
-$string['semicolon'] = 'Punto y coma (;)';
-$string['tab'] = 'Tabulador';
-$string['colon'] = 'Dos puntos (:)';
+// Advanced options and common fields
+$string['advancedoptions'] = 'Advanced options';
+$string['overwrite'] = 'Overwrite existing competencies';
+$string['overwrite_help'] = 'If checked, existing competencies with the same ID will be updated. If not checked, they will be skipped.';
+$string['encoding'] = 'File encoding';
+$string['encoding_help'] = 'Select the encoding of the CSV file. If you see strange characters, try different encodings.';
+$string['delimiter'] = 'CSV delimiter';
+$string['delimiter_help'] = 'Select the character that separates columns in the CSV file.';
+$string['comma'] = 'Comma (,)';
+$string['semicolon'] = 'Semicolon (;)';
+$string['tab'] = 'Tab';
+$string['colon'] = 'Colon (:)';
 
-// Resultados de importación
-$string['importresults'] = 'Resultados de la importación';
-$string['levelscreated'] = '{$a} niveles creados';
-$string['competenciestotal'] = 'Total de competencias en el archivo: {$a}';
-$string['competenciescreated'] = 'Competencias creadas: {$a}';
-$string['competenciesskipped'] = 'Competencias omitidas (ya existentes): {$a}';
-$string['competencieserrors'] = 'Errores al crear competencias: {$a}';
-$string['competenciesbylevel'] = 'Competencias por nivel';
-$string['levelnumber'] = 'Nivel {$a}';
-$string['levelunassigned'] = 'Sin nivel asignado';
-$string['detailedlog'] = 'Registro detallado';
-$string['viewframeworks'] = 'Ver marcos de competencias';
+// Import results
+$string['importresults'] = 'Import results';
+$string['levelscreated'] = '{$a} levels created';
+$string['competenciestotal'] = 'Total competencies in file: {$a}';
+$string['competenciescreated'] = 'Competencies created: {$a}';
+$string['competenciesskipped'] = 'Competencies skipped (already existing): {$a}';
+$string['competencieserrors'] = 'Errors creating competencies: {$a}';
+$string['competenciesbylevel'] = 'Competencies by level';
+$string['levelnumber'] = 'Level {$a}';
+$string['levelunassigned'] = 'Unassigned';
+$string['detailedlog'] = 'Detailed log';
+$string['viewframeworks'] = 'View competency frameworks';
 
-// Errores
-$string['invalidfileextension'] = 'El archivo debe tener extensión .csv';
-$string['missingrequiredcolumns'] = 'Faltan columnas requeridas en el archivo CSV';
-$string['errorreadingfile'] = 'Error al leer el archivo CSV';
-$string['error_framework_not_exists'] = 'El marco de competencias seleccionado no existe';
-$string['error_idnumber_exists'] = 'Ya existe un marco de competencias con este ID';
-$string['error_scale_not_exists'] = 'La escala seleccionada no existe';
+// Errors
+$string['invalidfileextension'] = 'The file must have a .csv extension';
+$string['missingrequiredcolumns'] = 'Required columns are missing in the CSV file';
+$string['errorreadingfile'] = 'Error reading CSV file';
+$string['error_framework_not_exists'] = 'The selected competency framework does not exist';
+$string['error_idnumber_exists'] = 'A competency framework with this ID already exists';
+$string['error_scale_not_exists'] = 'The selected scale does not exist';
