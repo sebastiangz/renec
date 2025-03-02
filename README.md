@@ -2,7 +2,8 @@
 
 Este plugin permite importar competencias del Registro Nacional de Estándares de Competencia (RENEC) a Moodle, transformándolas en un marco de competencias estructurado y utilizable dentro de la plataforma.
 
-![Logo RENEC](pix/screen.jpeg "Screen RENEC")
+![Screen 1 RENEC](pix/screen.jpeg "Screen RENEC")
+![Screen 2 RENEC](pix/screen1.jpeg "Screen RENEC")
 
 ## Características
 
