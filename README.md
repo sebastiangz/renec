@@ -26,7 +26,8 @@ Este plugin permite importar competencias del Registro Nacional de Estándares d
 3. Acceda como administrador a su sitio Moodle
 4. Vaya a "Administración del sitio" > "Notificaciones"
 5. Siga las instrucciones para completar la instalación
-6. Una vez instalado, podrá acceder al plugin desde "Administración del sitio" > "Competencias" > "Importador de competencias RENEC/CONOCER"
+6. Teclee en su navegador con el rol de usuario "admin" https://SITIOMOODLE/local/renec/, siga los pasos. 
+7. Una vez instalado y ejecutado el paso 6, podrá acceder al plugin desde "Administración del sitio" > "Competencias" > "Competencias RENEC/CONOCER"
 
 ## Uso
 
