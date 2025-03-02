@@ -1,4 +1,4 @@
-# renec - importador de competencias RENEC/CONOCER para Moodle
+# renec - Creador/Importador de competencias RENEC/CONOCER para Moodle
 
 Este plugin permite importar competencias del Registro Nacional de Estándares de Competencia (RENEC) a Moodle, transformándolas en un marco de competencias estructurado y utilizable dentro de la plataforma.
 
