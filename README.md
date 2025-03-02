@@ -60,6 +60,13 @@ Finalmente, importe las competencias individuales:
 - Configure opciones avanzadas como codificación, delimitador, sobrescritura, etc.
 - Importe las competencias, que se organizarán automáticamente bajo los niveles correspondientes
 
+#### Pasos subsecuentes
+
+Después de crear el marco, puede:
+- Asigar las competencias a los eventos de educación continua
+- <img src="pix/screen2.jpg" alt="Relacion de competencias" title="RENEC" width="300" height="200">
+- <img src="pix/screen3.jpg" alt="Asignar competencias a los eventos" title="RENEC" width="300" height="200">
+  
 ## Formato de archivos CSV
 
 El plugin está diseñado para trabajar con archivos CSV que tengan la siguiente estructura:
