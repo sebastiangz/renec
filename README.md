@@ -115,7 +115,7 @@ Este plugin fue desarrollado por Sebastián González Zepeda en EducacionContinu
 
 ## Contribuciones
 
-Las propuestas de mejora o correcciones a través de pull requests o issues en el repositorio del proyecto no están habilitadas por restricciones de tiempo del autor.
+Las propuestas de mejora o correcciones a través de pull requests o issues en el repositorio del proyecto si están habilitadas, pero por restricciones de tiempo del autor no damos en este momteno trámite a solicitudes de mejora.
 
 ## Historial de versiones
 
