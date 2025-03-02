@@ -115,7 +115,7 @@ Este plugin fue desarrollado por Sebastián González Zepeda en EducacionContinu
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas. Por favor, envíe sus propuestas de mejora o correcciones a través de pull requests o issues en el repositorio del proyecto.
+Las propuestas de mejora o correcciones a través de pull requests o issues en el repositorio del proyecto no están habilitadas por restricciones de tiempo del autor.
 
 ## Historial de versiones
 
